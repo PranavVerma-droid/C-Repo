@@ -15,4 +15,7 @@ int main() {
     } else {
         printf("Good evening.");
 
+    //C also has shorthand if-else statements:
+    (time < 18) ? printf("Good day.") : printf("Good evening."); //does the same thing as above
+
 }
