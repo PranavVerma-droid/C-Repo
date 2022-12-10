@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <stdio.h> //Always in code
 
-int main() {
-  printf("Hello World!");
-  return 0;
+int main() { //Main code
+  printf("Hello World!"); //Prints into the console
+  return 0; //Tells that the code has been stopped
 } 
