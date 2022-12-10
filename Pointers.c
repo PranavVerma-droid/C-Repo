@@ -24,5 +24,21 @@ in arrays - but we just didn't know it yet. The brackets operator - [0] for exam
 And since arrays are actually pointers, accessing the first item in the array is the same as dereferencing a pointer. 
 Dereferencing a pointer is done using the asterisk operator *.
 If we want to create an array that will point to a different variable in our stack, we can write the following code:  *///
+#include <stdio.h>
+int main() {
+    int a = 1;
+
+    /* define a pointer variable, and point it to a using the & operator */
+    int * pointer_to_a = &a;
+    
+
+    printf("The value a is %d\n", a);
+    printf("The value of a is also %d\n", *pointer_to_a);
+
+    *pointer_to_a += 1;
+    printf("The value of a is now %d\n", a);
+
+
+}
 
 
