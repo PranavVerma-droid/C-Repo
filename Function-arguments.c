@@ -15,7 +15,7 @@ printf("Before: %d\n", n);
 addone(n);
 printf("After: %d\n", n);
 
-However, this will work: */
+However, this will work: 
 #include <stdio.h>
 int main() {
 void addone(int *n) {
@@ -27,7 +27,7 @@ int n;
 printf("Before: %d\n", n);
 addone(&n);
 printf("After: %d\n", n);
-}
+} */
 
 //The difference is that the second version of addone receives a pointer to the variable n as an argument, 
 //and then it can manipulate it, because it knows where it is in the memory.
@@ -53,5 +53,35 @@ void move(point * p) {
     p->x++;
     p->y++;
 }   */
+
+//Exercise:
+//Write a function called birthday, which adds one to the age of a person.
+
+#include <stdio.h>
+
+typedef struct {
+  char * name;
+  int age;
+} person;
+
+/* function declaration */
+void birthday(person * p);
+
+void birthday(person * p){
+    p->age++; // This is the same..	
+    //(*p).age++; // ... as this would be
+}
+
+int main() {
+  person john;
+  john.name = "John";
+  john.age = 27;
+
+  printf("%s is %d years old.\n", john.name, john.age);
+  birthday(&john);
+  printf("Happy birthday! %s is now %d years old.\n", john.name, john.age);
+
+  return 0;
+}
 
 
