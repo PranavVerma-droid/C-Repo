@@ -49,6 +49,7 @@ int main() {
         scanf("%d", ptr + i);
 
     }
+    //Hello!
 
     printf("Input Values:\n");
     for(int i = 0; i < n; ++i) {
