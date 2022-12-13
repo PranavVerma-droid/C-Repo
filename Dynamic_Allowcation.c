@@ -19,6 +19,7 @@ the type of the returned pointer to that of the pointer it is assigned to (in th
 
 Note that sizeof is not an actual function, because the compiler interprets it and translates it to the actual memory size 
 of the person struct. */
+//Edit llol
 
 
 
@@ -48,6 +49,7 @@ int main() {
         scanf("%d", ptr + i);
 
     }
+    //Hello!
 
     printf("Input Values:\n");
     for(int i = 0; i < n; ++i) {
