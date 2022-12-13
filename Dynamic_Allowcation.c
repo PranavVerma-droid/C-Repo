@@ -45,7 +45,7 @@ int main() {
         return 0;
     }
 
-    printf("Enter Input values:\n");
+  /*  printf("Enter Input values:\n");
     for(int i = 0; i < n; ++i) {
         scanf("%d", ptr + i);
 
@@ -55,7 +55,21 @@ int main() {
     printf("Input Values:\n");
     for(int i = 0; i < n; ++i) {
         printf("%d\n", *(ptr + i));
+    } */
+
+    printf("Allocated Memory\n");
+    for (int i = 0; i < n; ++i) {
+      printf("%p\n", ptr + i);
     }
+
+    n = 35;
+
+    ptr = realloc (ptr, n * sizeof(int));
+    printf("Newly Allocated Memory\n");
+    for (int i = 0; i < n; ++i) {
+      printf("%p\n", ptr + i);
+    }
+    free(ptr);
     return 0;
 
 
