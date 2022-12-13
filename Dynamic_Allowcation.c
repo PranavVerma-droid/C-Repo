@@ -62,7 +62,7 @@ int main() {
       printf("%p\n", ptr + i);
     }
 
-    n = 35;
+    n = 10;
 
     ptr = realloc (ptr, n * sizeof(int));
     printf("Newly Allocated Memory\n");
