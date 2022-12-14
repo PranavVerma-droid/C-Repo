@@ -5,7 +5,7 @@ int main() { //Main code
     //In this code, the code in the loop will run, over and over again, as long as a variable (i) is less than 5:
     while (i < 5) {
     printf("%d\n", i);
-    i++;
+    i++;
     } 
 
     //The do-while loop is also kinda the same, it will execute the 'do', and then run the while, and if the while loop
