@@ -1,0 +1,10 @@
+A loop is a way to repeat code or a set of instructions until a specified condition is reached.
+For example, have you ever been looking for somebody in a grocery store? You check each aisle until you find them.
+You naturally perform certain tasks with a repetition, or iteration, until a condition is met. In this case, when you finally
+catch that glimpse of a familiar person!
+That generic term “iterate” means “to repeat.” You’ll find that, just like in real life, you’ll use loops in your code all
+the time! And just like this infinite GIF of blocks turning, a task may repeat seemingly infinitely, but you always have a way
+to control when it stops.
+When we see that a process has to be repeated multiple times in a row, we write a loop. Loops allow us to create efficient code
+that automates processes to make scalable, manageable programs.
+In this lesson, we will learn about three types of loops: while loops, do-while loops, and for loops!
