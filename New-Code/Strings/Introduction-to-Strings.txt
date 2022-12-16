@@ -1,0 +1,9 @@
+Introduction to Strings
+
+Your very first exercise in this course was the traditional task of printing the line “Hello World” to the screen.
+In this lesson, we will dive deeper into the data type of “Hello World” and explore its properties and functions.
+In C, the line “Hello World” is known as a string as it is simply a string of characters. Strings are very important
+in programming and software engineering as they allow the program to display output to the user and can even be used to
+debug errors. In the C programming language, a string is represented by an array of chars and is consequently subject to
+all the properties and methods associated with arrays. The most common function used with strings is the printf() function
+as you have seen before.
